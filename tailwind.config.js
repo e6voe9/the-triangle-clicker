@@ -9,7 +9,13 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        135: "135deg",
+        225: "225deg",
+        315: "315deg",
+      },
+    },
   },
   plugins: [],
 };
