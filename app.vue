@@ -55,7 +55,7 @@ watch([countOne, countTwo, countThree, countFour], saveToLS);
           <button
             @click="countOne++"
             type="button"
-            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 translate-x-1/2 translate-y-1/2 bg-white top-3 size-full transform-gpu hover:opacity-70"
+            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 translate-x-1/2 translate-y-1/2 bg-white touch-manipulation top-3 size-full transform-gpu hover:opacity-70"
           ></button>
           <div
             v-if="countOne"
@@ -75,7 +75,7 @@ watch([countOne, countTwo, countThree, countFour], saveToLS);
           <button
             @click="countTwo++"
             type="button"
-            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 -translate-x-1/2 translate-y-1/2 bg-red-500 top-3 size-full transform-gpu hover:opacity-70"
+            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 -translate-x-1/2 translate-y-1/2 bg-red-500 touch-manipulation top-3 size-full transform-gpu hover:opacity-70"
           ></button>
           <div
             v-if="countTwo"
@@ -96,7 +96,7 @@ watch([countOne, countTwo, countThree, countFour], saveToLS);
           <button
             @click="countThree++"
             type="button"
-            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 translate-x-1/2 -translate-y-1/2 bg-blue-500 -top-3 size-full transform-gpu hover:opacity-70"
+            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 translate-x-1/2 -translate-y-1/2 bg-blue-500 touch-manipulation -top-3 size-full transform-gpu hover:opacity-70"
           ></button>
           <div
             v-if="countThree"
@@ -116,7 +116,7 @@ watch([countOne, countTwo, countThree, countFour], saveToLS);
           <button
             @click="countFour++"
             type="button"
-            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 -translate-x-1/2 -translate-y-1/2 bg-yellow-500 -top-3 size-full transform-gpu hover:opacity-70"
+            class="relative transition-opacity duration-300 origin-center scale-150 rotate-45 -translate-x-1/2 -translate-y-1/2 bg-yellow-500 touch-manipulation -top-3 size-full transform-gpu hover:opacity-70"
           ></button>
           <div
             v-if="countFour"
