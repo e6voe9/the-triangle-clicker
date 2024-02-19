@@ -49,7 +49,9 @@ watch([countOne, countTwo, countThree, countFour], saveToLS);
 
 <template>
   <div class="min-h-screen py-6 bg-gray-900">
-    <div class="flex flex-col items-center gap-24 overflow-hidden size-full">
+    <div
+      class="flex flex-col items-center gap-24 py-6 overflow-hidden size-full"
+    >
       <div class="flex flex-wrap rotate-45 size-64 lg:size-96">
         <div class="relative overflow-hidden size-1/2">
           <button
